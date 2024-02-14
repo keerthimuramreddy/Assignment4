@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Assignment4.MainWindow">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Font Size : 0" x:Name="Label1" />
+            <Slider x:Name="slider" Maximum="50" Minimum="16" ValueChanged="slider_ValueChanged"></Slider>
+            <Label Text="Dumy Code" x:Name="Label2"></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
